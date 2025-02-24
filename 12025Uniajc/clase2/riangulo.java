@@ -1,13 +1,13 @@
-public class Ejercicio{
+public class riangulo{
     public static void main(String[ ]args){
-        //Ares del cuadrado
+        //Area de un triangulo
         //Declaracion de las variables
-        int lado, area;
+        int Area, Base, altura;
         //Asaignemos un valor a la variable lado
-        lado = 3;
+        altura= 3;
         //Calculas el area del cuadrado
-        area = lado * lado;
+        Base * altura;
         //Mostramos por pantalla el resultado de la formula
-        System.out.println("El area del cuadrado:" + area);
+        System.out.println ("La Base del triangulo:" * altura);
     }
 }
