@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class Ejercicio4punto1D {
-    public static void main(String[] args) { 
+     public static void main(String[] args) { 
   Scanner leer = new Scanner(System.in);
 
     //Declaramos la variables
@@ -29,3 +30,5 @@ public class Ejercicio4punto1D {
     leer.close();
     }
 }
+
+
