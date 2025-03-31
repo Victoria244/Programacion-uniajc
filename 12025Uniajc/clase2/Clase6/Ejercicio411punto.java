@@ -16,30 +16,22 @@ public class Ejercicio411punto {
 
         double resultado;
 
-        switch (seleccionOp) {
-            case "+":
+        if(seleccionOp.equals("+")) {
                 resultado = numero1 + numero2;
                 System.out.println("Resultado: " + resultado);
-                break;
-            case "-":
-                resultado = numero1 - numero2;
-                System.out.println("Resultado: " + resultado);
-                break;
-            case "*":
+        } else {
+            if(seleccionOp.equals("*")){
                 resultado = numero1 * numero2;
                 System.out.println("Resultado: " + resultado);
-                break;
-            case "/":
+            } else {               
                 if (numero2 != 0) {
                     resultado = numero1 / numero2;
                     System.out.println("Resultado: " + resultado);
                 } else {
                     System.out.println("Error: división por cero");
                 }
-                break;
-            default:
-                System.out.println("Operación no válida");
-        }
+                
+            }
 
         entrada.close();
     }
