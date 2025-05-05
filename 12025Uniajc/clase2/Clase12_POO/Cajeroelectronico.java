@@ -46,7 +46,8 @@ public class Cajeroelectronico {
             return saldo;
         }
         public void transferir( double cantidad, string destino){
-            if(la cantidad <= saldo){
+            if(cantidad <= saldo){
+                saldo -= cantidad;
                 System.out.println("Se realizo una transferencia por:" + cantidad + "a" + destino + "y su salso es: " + saldo);
             }else{
                 System.out.println("La transferencia no se pudo hacer");
