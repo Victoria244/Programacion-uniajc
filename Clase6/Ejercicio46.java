@@ -1,8 +1,7 @@
+package Clase6;
 
-import java.util.Scanner;
-
-public class Ejercicio46punto {
-
+public class Ejercicio46 {
+    import java.util.Scanner;
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
 
@@ -44,5 +43,16 @@ public class Ejercicio46punto {
         System.out.println("La fecha del día siguiente es: " + dia + "/" + mes + "/" + año);
 
         leer.close();
+
     }
+
 }
+
+}
+    
+
+
+
+
+
+

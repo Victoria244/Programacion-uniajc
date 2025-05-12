@@ -1,5 +1,7 @@
+package Clase11_POO;
+
 public class Circulo {
-   
+    
     //Atributos
     private double radio;
 
@@ -17,3 +19,5 @@ public class Circulo {
         return Math.PI * (radio * radio); //Math.PI * Math.pow(r,2)
     }
 }
+    
+

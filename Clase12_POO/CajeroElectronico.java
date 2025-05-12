@@ -1,5 +1,7 @@
-public class CajeroElectronico {
+package Clase12_POO;
 
+public class CajeroElectronico {
+    
     // Atributos
     private double saldo;
 
@@ -59,3 +61,5 @@ public class CajeroElectronico {
         }
     }
 }
+
+

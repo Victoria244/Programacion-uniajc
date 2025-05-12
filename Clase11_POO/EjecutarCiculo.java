@@ -1,4 +1,7 @@
+package Clase11_POO;
+
 public class EjecutarCiculo {
+   
     public static void main(String[] args) {
         double r = 2.3; // radio
 
@@ -11,3 +14,4 @@ public class EjecutarCiculo {
         System.out.println("Area :" + objCirculo1.calcularArea());
     }
 }
+
